@@ -1,9 +1,55 @@
 * {
-  box-sizing: border-box;
-  width: 0;
-  height: 0;
+  all: unset;
+  display: revert;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   background-color: #ffe2b0;
 }
+
+/* ==================== COMMON ==================== */
+/* ========== container ========== */
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+/* ========== container ========== */
+
+/* ========== navbar ========== */
+.navbar {
+  padding: 20px 0;
+}
+.navbar__list {
+  display: flex;
+}
+.navbar__element {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar__element:not(:last-child) {
+  margin-right: 100px;
+}
+/* ========== navbar ========== */
+/* ==================== COMMON ==================== */
+
+/* ==================== HEADER ==================== */
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ==================== HEADER ==================== */
