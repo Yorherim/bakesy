@@ -1,6 +1,7 @@
 * {
   all: unset;
   display: revert;
+  box-sizing: border-box;
 }
 
 li {
@@ -34,14 +35,12 @@ body {
 }
 .navbar__list {
   display: flex;
+  gap: 100px;
 }
 .navbar__element {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
-}
-.navbar__element:not(:last-child) {
-  margin-right: 100px;
 }
 /* ========== navbar ========== */
 /* ==================== COMMON ==================== */
@@ -53,3 +52,39 @@ body {
   align-items: center;
 }
 /* ==================== HEADER ==================== */
+
+/* ==================== SPECIAL ORDER ==================== */
+.special-order {
+  height: 640px;
+  background: url("img/bread-background.jpg") center/cover no-repeat;
+}
+
+.special-order__block {
+  min-height: 190px;
+  width: 420px;
+  background: linear-gradient(180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%);
+  position: relative;
+  top: 54.5%;
+  left: 50.6%;
+  padding: 15px;
+}
+
+.special-order__description {
+  border: 1px solid black;
+  padding: 17px 28px;
+}
+
+.special-order__title {
+  font-size: 36px;
+  block-size: 36px;
+  margin-bottom: 9px;
+}
+
+.special-order__text {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+/* ==================== SPECIAL ORDER ==================== */
