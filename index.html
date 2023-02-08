@@ -1,21 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Bakesy</title>
-  <meta name="description" content="Магазин выпечки хлебушка">
-  <link rel="icon" href="src/img/bread-icon.svg">
-  <link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header__wrapper">
-        <img class="header__logo" src="src/img/01-Logo.svg" alt="logo">
-        <nav class="navbar header__navbar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bakesy</title>
+    <meta name="description" content="Магазин выпечки хлебушка" />
+    <link rel="icon" href="src/img/bread-icon.svg" />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img class="header__logo" src="src/img/01-Logo.svg" alt="logo" />
+          <nav class="navbar header__navbar">
+            <ul class="navbar__list">
+              <li class="navbar__element">
+                <a href="#" class="navbar__link">о нас</a>
+              </li>
+              <li class="navbar__element">
+                <a href="#" class="navbar__link">новости</a>
+              </li>
+              <li class="navbar__element">
+                <a href="#" class="navbar__link">меню</a>
+              </li>
+              <li class="navbar__element">
+                <a href="#" class="navbar__link">контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="special-order">
+        <div class="special-order__block">
+          <div class="special-order__description">
+            <h2 class="special-order__title">Специальный заказ</h2>
+            <p class="special-order__text">
+              Задача организации, в особенности же постоянный количественный рост и сфера нашей
+              активности позволяет оценить значение существенных финансовых и административных
+              условий. Равным образом новая модель организационной деятельности требуют определения
+              и уточнения форм развития.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="description">
+        <div class="container">
+          <div class="description__icons">
+            <img src="src/img/description-icon-1.svg" alt="icon" />
+            <img src="src/img/description-icon-2.svg" alt="icon" />
+            <img src="src/img/description-icon-3.svg" alt="icon" />
+          </div>
+          <div class="description__content">
+            <h1 class="description__title title-description">
+              Выпечка - <span class="title-description__red">это</span> вкусно.
+            </h1>
+            <p class="description__text">
+              Товарищи! новая модель организационной деятельности способствует подготовки и
+              реализации позиций, занимаемых участниками в отношении поставленных задач. Товарищи!
+              дальнейшее развитие различных форм деятельности позволяет выполнять важные задания по
+              разработке соответствующий условий активизации. Равным образом укрепление и развитие
+              структуры играет важную роль в формировании системы обучения кадров, соответствует
+              насущным потребностям. Разнообразный и богатый опыт сложившаяся структура организации
+              способствует подготовки и реализации дальнейших направлений развития. Товарищи!
+              постоянный количественный рост и сфера нашей активности в значительной степени
+              обуславливает создание системы обучения кадров, соответствует насущным потребностям.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="map">
+        <div class="container">
+          <h2 class="map__title">заказать</h2>
+          <iframe
+            class="map__integration"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9010.753046325384!2d37.699325973945875!3d55.624839849437784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab35aa17eb1e7%3A0x5b9e69fe058db353!2z0J_QtdC60LDRgNC90Y8gItCl0LvQtdCxINC00LAg0JLRi9C_0LXRh9C60LAi!5e0!3m2!1sru!2sru!4v1675270609346!5m2!1sru!2sru"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+          <div class="map__divider"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <nav class="navbar footer__navbar">
           <ul class="navbar__list">
             <li class="navbar__element">
               <a href="#" class="navbar__link">о нас</a>
@@ -32,71 +113,6 @@
           </ul>
         </nav>
       </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="special-order">
-      <div class="special-order__block">
-        <div class="special-order__description">
-          <h2 class="special-order__title">Специальный заказ</h2>
-          <p class="special-order__text">Задача организации, в особенности же постоянный количественный рост и сфера нашей активности позволяет оценить значение существенных финансовых и административных условий. Равным образом новая модель организационной деятельности требуют определения и уточнения форм развития.</p>
-        </div>
-      </div>
-    </section>
-    <section class="description">
-      <div class="container">
-        <div class="description__icons">
-          <img src="src/img/description-icon-1.svg" alt="icon">
-          <img src="src/img/description-icon-2.svg" alt="icon">
-          <img src="src/img/description-icon-3.svg" alt="icon">
-        </div>
-        <div class="description__content">
-          <h1 class="description__title title-description">
-            Выпечка - <span class="title-description__red">это</span> вкусно.
-          </h1>
-          <p class="description__text">
-            Товарищи! новая модель организационной деятельности способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач. Товарищи! дальнейшее развитие различных форм деятельности позволяет выполнять важные задания по разработке соответствующий условий активизации. Равным образом укрепление и развитие структуры играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
-
-            Разнообразный и богатый опыт сложившаяся структура организации способствует подготовки и реализации дальнейших направлений развития. Товарищи! постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="map">
-      <div class="container">
-        <h2 class="map__title">заказать</h2>
-        <iframe
-          class="map__integration"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9010.753046325384!2d37.699325973945875!3d55.624839849437784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab35aa17eb1e7%3A0x5b9e69fe058db353!2z0J_QtdC60LDRgNC90Y8gItCl0LvQtdCxINC00LAg0JLRi9C_0LXRh9C60LAi!5e0!3m2!1sru!2sru!4v1675270609346!5m2!1sru!2sru"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-        <div class="map__divider"></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <nav class="navbar footer__navbar">
-        <ul class="navbar__list">
-          <li class="navbar__element">
-            <a href="#" class="navbar__link">о нас</a>
-          </li>
-          <li class="navbar__element">
-            <a href="#" class="navbar__link">новости</a>
-          </li>
-          <li class="navbar__element">
-            <a href="#" class="navbar__link">меню</a>
-          </li>
-          <li class="navbar__element">
-            <a href="#" class="navbar__link">контакты</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
